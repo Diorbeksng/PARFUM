@@ -6,7 +6,7 @@ from django.shortcuts import render
 def index(request):
     context = {
         'title': 'Home',
-        'content' : ' Главная страница',
+        'content' : 'Главная страница',
 
     }
 
@@ -14,5 +14,5 @@ def index(request):
     return render(request, 'main/index.html',context)
 
 def about(request):
-    return HttpResponse('<h1>hello</h1> <button>click me</button>')
+    return render(request, 'main/about.html')
 # Create your views here.

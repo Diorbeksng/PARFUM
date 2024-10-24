@@ -1,0 +1,17 @@
+{% load static %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'main/css/header.css' %}">
+{% endblock %}
+
+<header class="row">
+    <div class="col location log">
+        <div><a href="{% url 'about' %}"><i class="fa-solid fa-location-dot"></i></a></div>
+    </div>
+    <div class="col-8 logo">
+        <a href="#"><img src="{% static 'main/img/logo.png' %}"  alt="logo"></a>
+    </div>  
+    <div class="col search log">
+        <div><a href="#" class="col"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+    </div>
+
+</header>

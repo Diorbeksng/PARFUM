@@ -1,0 +1,49 @@
+
+
+
+body{
+    padding-top: 10px;
+    
+}
+
+
+.logo a, .logo img{
+
+    --logow: 100%;
+    width: var(--logow);
+    height: var(--logow);
+
+}
+
+.log{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto 0;
+}
+.log a{
+    color: black;
+    font-size: 24px;
+
+
+}
+
+
+@media (min-width: 320px) {
+  .log a {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  .log a {
+    font-size: 30px;
+  }
+}
+@media (min-width: 425px) {
+  .log a {
+      font-size: 36px;
+
+  }
+}

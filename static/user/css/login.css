@@ -1,0 +1,40 @@
+main{
+    padding: 30px;
+
+}
+
+h6{
+    width: 1px;
+    height: 1px;
+    color: white;
+    margin-bottom: 200px;
+}
+
+.h1, .h4{
+    text-align: center;
+}
+
+.h4{
+    color: #818080;
+    margin-bottom: 40px;
+}
+
+.tel{
+    background-color: #e92767;
+    color: white;
+    width: 100%;
+}
+
+.btn h4, .btn p{
+    margin: 0;
+    padding: 0;
+}
+
+.email{
+    background-color: white;
+    color: #e92767;
+    width: 100%;
+    padding: 13px;
+    border: 3px solid #e92767;
+    margin-top: 5px;
+}
